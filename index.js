@@ -9,6 +9,7 @@ app.set('port', process.env.PORT || 4000)
 
 app.use(express.json())
 
+
 // Routes
 const userController = require('./controller/user.controller');
 
